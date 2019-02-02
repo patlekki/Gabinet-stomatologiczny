@@ -28,12 +28,12 @@ header ul {
     margin-top:80px;
     display: block;
     list-style-type: none;
-    float: right;
+    float: left;
    
 }
 header ul li{
     height:50px;
-    float: right;
+    float: left;
     margin: 0 30px;
     border-right:3px solid black;
 }
