@@ -21,7 +21,7 @@ header{
 header img{
     height: 200px;
     margin-left: 40px;
-margin-right: 50px;
+    margin-right: 50px;
 }
 header ul {
     justify-content: center;
@@ -34,7 +34,8 @@ header ul {
 header ul li{
     height:50px;
     float: left;
-    margin: 0 30px;
+    /*margin: 0 30px;*/
+    padding: 0 30px;
     border-right:3px solid black;
 }
 header ul li a {
@@ -46,8 +47,16 @@ header ul li a {
     text-decoration: none;
    
 }
+header ul li a:hover {
+    color:black;
 
-main{
+}
+header ul li:hover {
+border-bottom: 3px solid black;
+
+}
+
+main {
     text-align: center;
     
 
